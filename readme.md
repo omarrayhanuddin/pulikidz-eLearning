@@ -119,7 +119,7 @@ SITE_URL=http://127.0.0.1:8000
 
 ### Frontend (`frontend/.env.example`)
 ```
-REACT_APP_API_BASE_URL=http://localhost:8000
+VITE_API_BASE_URL=http://localhost:8000
 ```
 
 ## API Documentation
