@@ -1,0 +1,22 @@
+<Card sx={{ marginBottom: 2 }}> {/* Add margin bottom */}
+<CardMedia
+  component="img"
+  height="300"
+  image={course.instructor?.profile_pic || 'https://via.placeholder.com/300x200'}
+  alt={course.title}
+/>
+<CardContent>
+  <Typography variant="h4" gutterBottom>
+    {course.title}
+  </Typography>
+  <Typography variant="body1" gutterBottom>
+    {course.description}
+  </Typography>
+  <Typography variant="subtitle1" color="text.secondary">
+    Instructor: {course.instructor?.name}
+  </Typography>
+  <Typography variant="caption" display="block" gutterBottom>
+    Created at: {new Date(course.created_at).toLocaleString()}
+  </Typography>
+</CardContent>
+</Card>
