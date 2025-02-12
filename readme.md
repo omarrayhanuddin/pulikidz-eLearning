@@ -55,6 +55,7 @@ Ensure you have the following installed before proceeding:
 - **Node.js**
 
 ### Backend Setup
+> **Before proceeding, set up the `.env` file as described in the [Environment Variables](#environment-variables) section.**
 1. Navigate to the backend folder:
    ```sh
    cd backend
@@ -86,6 +87,7 @@ Ensure you have the following installed before proceeding:
    ```
 
 ### Frontend Setup
+> **Before proceeding, set up the `.env` file as described in the [Environment Variables](#environment-variables) section.**
 1. Navigate to the frontend folder:
    ```sh
    cd frontend
@@ -119,7 +121,7 @@ SITE_URL=http://127.0.0.1:8000
 
 ### Frontend (`frontend/.env.example`)
 ```
-VITE_API_BASE_URL=http://localhost:8000
+REACT_APP_API_BASE_URL=http://localhost:8000
 ```
 
 ## API Documentation
@@ -131,7 +133,7 @@ The API documentation is available in the published Postman collection:
 - **Course Management**: Teachers can create courses, and students can enroll.
 - **Real-time Chat**: WebSocket-based chat feature for real-time messaging.
 - **File Uploads**: Teachers can upload course materials.
-- **Notifications**: Students get notified about new courses and materials.
+- **Notifications**: Students get notified about new courses and materials through emails.
 
 ## Testing
 To run tests for the backend:
