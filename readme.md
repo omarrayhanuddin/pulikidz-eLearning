@@ -159,5 +159,4 @@ The Postman collection with all API endpoints is available at:
 [Postman Documentation](https://documenter.getpostman.com/view/34977433/2sAYXBHLLU)
 
 ---
-**GitHub Submission**: Ensure that the `.env.example` files, all documents, and links are included in your GitHub repository before submission.
 
