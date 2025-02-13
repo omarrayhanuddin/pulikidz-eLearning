@@ -57,7 +57,7 @@ class ChatConsumer(AsyncWebsocketConsumer):
                 "id":message.id,
                 "message":message.message,
                 "room":message.room.id,
-                "timestamp":message.timestamp.strftime("%d/%m/%Y, %H:%M:%S"),
+                "timestamp":message.timestamp.isoformat(timespec="microseconds").replace("+00:00", "Z"),
                 "sender":{
                     "id":message.sender.id,
                     "name":message.sender.name
