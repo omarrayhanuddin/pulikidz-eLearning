@@ -117,7 +117,6 @@ EMAIL_HOST_PASSWORD=your_email_password
 DEFAULT_FROM_EMAIL=authapi@noreplay.com
 SITE_URL=http://127.0.0.1:8000
 ```
-> **Note**: Do not push `.env` files with sensitive credentials to the repository. Instead, provide a `.env.example` file with placeholder values.
 
 ### Frontend (`frontend/.env.example`)
 ```
